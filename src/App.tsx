@@ -1,4 +1,4 @@
-import { Counter, LoginPage } from "./components";
+import { Counter, LoginPage, UsersPage } from "./components";
 import { BasicFunctions, BasicTypes, ObjectLiterals } from "./typescript";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <BasicFunctions />
       <Counter />
       <LoginPage />
+      <UsersPage />
     </main>
   );
 }
