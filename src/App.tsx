@@ -1,16 +1,17 @@
-import { Counter, LoginPage, UsersPage } from "./components";
+import { Counter, FormsPage, LoginPage, UsersPage } from "./components";
 import { BasicFunctions, BasicTypes, ObjectLiterals } from "./typescript";
 
 function App() {
   return (
     <main>
       <h1>Introducción a TS React</h1>
-      <BasicTypes />
+{/*       <BasicTypes />
       <ObjectLiterals />
       <BasicFunctions />
       <Counter />
       <LoginPage />
-      <UsersPage />
+      <UsersPage /> */}
+      <FormsPage/>
     </main>
   );
 }
